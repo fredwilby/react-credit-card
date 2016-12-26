@@ -1,7 +1,7 @@
 
 React   = require('react')
 Payment = require('payment')
-images  = require('./card-images.js')
+images  = require('./card-images.coffee')
 
 validate = Payment.fns
 module.exports = React.createClass
